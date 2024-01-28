@@ -1,0 +1,8 @@
+ll add(ll b, ll c){
+    if(LL_INF-b<c) return LL_INF+1;
+    return b+c;
+}
+ll mul(ll b, ll c){
+    if(LL_INF/b<c) return LL_INF+1;
+    return b*c;
+}
